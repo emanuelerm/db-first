@@ -1,0 +1,16 @@
+	                  Cars
+
+PK - id			        |	BIGINT NOT NULL AUTO_INCREMENT UNIQUE
+   - brand			    |	CHAR(255) NOT NULL
+   - model			    |	CHAR(255) NOT NULL
+   - category		    |	CHAR(255) NOT NULL
+   - date_of_release	|	DATE NOT NULL
+   - km_travelled	    |	MEDIUMINT(999'999) NOT NULL
+   - fuel               |   CHAR(100) NOT NULL
+   - hp                 |   SMALLINT(1'000) NOT NULL
+   - novice_drivers     |   TINYINT(1) NOT NULL DEFAULT 0
+   - owners		        |	TINYINT(50) NOT NULL
+   - conditions		    |	VARCHAR(20'000) DEFAULT ''
+   - images		        |	VARCHAR(750) NULL UNIQUE
+   - accidents		    |	TINYINT(1) NOT NULL
+   - price			    |	MEDIUMINT(50'000) NOT NULL
